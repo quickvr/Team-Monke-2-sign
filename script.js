@@ -5,7 +5,7 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     const email = document.getElementById('email').value;
     const skills = document.getElementById('skills').value;
 
-    const url = 'YOUR_GOOGLE_APPS_SCRIPT_URL'; // Replace with your Google Apps Script URL
+    const url = 'https://docs.google.com/spreadsheets/d/13mlaCWd1fwvtaenEmP0pvB6_vDCVWvAIjlVLOrV8p4g/edit?gid=0#gid=0'; // Replace with your Google Apps Script URL
 
     // Prepare data to send
     const data = {
